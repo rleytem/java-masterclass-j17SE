@@ -1,0 +1,37 @@
+    //Bills Burger Challenge
+    //Bill runs a fast food hamburger restaurant and sells hamburger meals
+    //meal combos are composed of three items, hamburger, drink and side item
+    //this application will let Bill select type of Burger and some additional items or extras
+    //these can be added to the burger as well as actual pricing
+
+    //the objects
+    // == The Combo
+    //----Should be composed of exactly one burger, one drink and one side item
+    //----Most common meal order should be created without any arguments like regular burger small coke and fries
+    //----Should be able to create other combos by specifying different burgers, drinks and side items
+    //
+    // == Drink and Side Item
+    //----Drink should at least have a type, size and price, and price of drink should change for each size
+    //----Side item needs at least a type and price
+    //
+    // == Burgers
+    //----Every burger should have a burger type, base price and up to a max of three extra toppings
+    //----Constructor should only include burger type and price
+    //----Extra toppings on burger need to be added somehow and priced according to their type
+    //
+    // == Deluxe Burger Bonus
+    //----Create a deluxe burger meal with deluxe burger, set price, so additional toppings will not change price
+    //----room for additional two toppings
+
+    //the functionality
+    // == Create Default Combo Meal that uses no-arguments constructor
+    // == Create a meal with burger, drink and side item of your choice, up to three additional toppings
+    // == Create a meal with Deluxe Burger, all items, drink, side item and toppings up to 5 extra toppings are included
+    //
+    // == Each Combo
+    //----Add some additional toppings to burger
+    //----Change size of drink
+    //----Print itemized list, should include price of burger, extra toppings, drink price based on size and side item price
+    //----Print total due amount for meal
+
+    //Use combination of Composition, Inheritance, Encapsulation and Polymorphism
